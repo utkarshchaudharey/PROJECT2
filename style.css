@@ -1,0 +1,91 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+#navigation
+{
+	position: sticky;
+	width: 100%;
+	height: 10vh;
+	background-color: grey;
+
+}
+#navigation h1
+{
+	padding-top: 9px;
+	padding-left: 50px;
+	height: 8px;
+	width: 10%;
+	font-size: 40px;
+
+
+}
+#navigation li
+{
+	padding: 0 10px;
+	padding-bottom: 5px;
+	border-radius: 50px; 
+}
+#navigation .button
+{
+	padding-right:100px;
+	float: right;
+  background-color: #aaa; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+#navigation .button {
+  
+    transition-duration: 0.4s;
+}
+
+#navigation .button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#navigation li a:hover
+{
+	color: #007bff;
+}
+#bd
+{
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-image: url(1.png); 
+
+}
+#bd .bdi
+{
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-color: black;
+	background:transparent;
+	
+}
+.bdi h1
+{
+	padding-top: 150px;
+	padding-left: 430px;
+	height: 8px;
+	width: 10%;
+	font-size: 100px;
+
+}
+.intro
+{
+	width: 100%;
+	height: 100vh;
+	background-size: 100% 100%;
+	background-image: url(g.jpg); 
+
+}
